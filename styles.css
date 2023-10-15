@@ -17,3 +17,22 @@
     bottom: 100px;
     left:150px;
 }
+
+.width-90{
+    width: 90%;
+}
+.width-95{
+    width: 95%;
+}
+
+.width-40{
+    width: 40%;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+.width-60{
+    width: 60%;
+}
