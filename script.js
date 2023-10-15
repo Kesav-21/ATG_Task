@@ -17,5 +17,15 @@ function followBtn(){
 }
 
 function userBtn(){
+    var modal = document.getElementById("myModal");
+    var span = document.getElementsByClassName("close")[0];
+    modal.style.display="block";
     
+}
+window.onclick = function(event) {
+    var modal = document.getElementById("myModal");
+    console.log("hello")
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
