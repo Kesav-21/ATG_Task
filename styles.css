@@ -14,8 +14,8 @@
 }
 
 .image-text{
-    bottom: 100px;
-    left:150px;
+    bottom: 20%;
+    left:15%;
 }
 
 .width-90{
@@ -114,4 +114,15 @@
     position: absolute;
     right: 1rem;
     top:1.25rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .image-text{
+        right: 20%;
+        left:20%;
+    }
+    .menu-bar{
+      width: 100%;
+    }
   }

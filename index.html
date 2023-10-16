@@ -10,11 +10,11 @@
 </head>
 <body class="container-full">
     <header>
-        <nav class="d-flex justify-content-around align-items-center h-25 border p-3">
+        <nav class="d-flex justify-content-around align-items-center h-25 border p-3 flex-column flex-md-row gap-2 w-100">
             <img src="./assets/images/logo.png" height="24px"/>
-            <div class="w-25">
+            <div class="flex-grow-1 flex-md-grow-0">
                 <i class="position-absolute mx-2 my-1"><img src="./assets/images/search.svg"/></i>
-                <input type="text" class="rounded-pill px-5 py-1 w-100 bg-dark-subtle border-0" placeholder="Search for your favorite groups in ATG"/>
+                <input type="text" class="rounded-pill ps-5 pe-2 py-1 w-100 bg-secondary-subtle border-0" placeholder="Search for your favorite groups in ATG"/>
             </div>
             <div>
                 <p class="my-1">
@@ -28,7 +28,7 @@
             <img src="/assets/images/computer.jpg" class="w-100 height object-fit-cover"/>
         </div>
         <div class="position-absolute image-text">
-            <p class="text-white fs-2 fw-bold m-0">
+            <p class="text-white fs-2 fw-bold m-0 ">
                 Computer Engineering
             </p>
             <p class="text-white fw-light fs-6">
@@ -37,23 +37,23 @@
         </div>
     </div>
 <div>
-    <div class="mx-auto w-75 d-flex justify-content-between align-items-center mt-5">
-        <div class="mt-2">
-            <a class="text-black text-decoration-none border-bottom border-dark pb-4" href="#">All Posts(32)</a>
+    <div class="mx-auto w-75 d-flex flex-column-reverse flex-md-row justify-content-between align-items-center mt-5">
+        <div class="mt-2 d-md-block d-flex flex-column align-items-start menu-bar">
+            <a class="text-black text-decoration-none border-bottom border-dark pb-1 pb-md-4" href="#">All Posts(32)</a>
             <a class="text-black-50 text-decoration-none mx-1" href="#">Article</a>
             <a class="text-black-50 text-decoration-none mx-1" href="#">Event</a>
             <a class="text-black-50 text-decoration-none mx-1" href="#">Education</a>
             <a class="text-black-50 text-decoration-none mx-1" href="#">Job</a>
         </div>
         <div>
-            <button class="bg-dark-subtle fw-bold rounded-1 btn-outline-light border-0 p-2">Write a Post <img class="mx-1" src="/assets/images/down.svg" alt=""></button>
-            <button id="grpBtn" onclick="joinGrp()" class="btn btn-primary p-2"><img id="joingrp" src="/assets/images/join.svg" alt=""><span id="grp-text">Join Group</span></button>
+            <button class="btn bg-secondary-subtle text-black fw-bold p-2">Write a Post <img class="mx-1" src="/assets/images/down.svg"></button>
+            <button id="grpBtn" onclick="joinGrp()" class="btn btn-primary p-2"><img id="joingrp" src="/assets/images/join.svg"><span id="grp-text">Join Group</span></button>
         </div>
     </div>
     <hr class="w-75 mx-auto"/>
 </div>
-<div class="d-flex justify-content-between w-75 mx-auto">
-    <div class="w-75">
+<div class="d-flex justify-content-between w-75 flex-grow-1 mx-auto">
+    <div class="w-100">
     <div class="border-1 shadow-lg">
         <img src="./assets/images/img1.jpeg" alt="img1" height="220px" class="w-100"/>
         <p class="m-3">✍️ Article</p>
@@ -62,9 +62,9 @@
             <button class="btn btn-light"><img src="/assets/images/dots.svg" alt=""></button>           
         </div>
         <p class="mx-3">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
-        <div class="d-flex m-3 justify-content-between">
-            <h6 class="width-60"><img class="rounded-circle me-2" src="/assets/images/profile1.jpeg" alt="" width="48px" height="48px">Sarthak Kamra</h6>
-            <div class="d-flex align-items-baseline justify-content-around width-40 mt-2">
+        <div class="d-flex m-3 justify-content-between ">
+            <h6 class="w-75"><img class="rounded-circle me-2" src="/assets/images/profile1.jpeg" alt="" width="48px" height="48px">Sarthak Kamra</h6>
+            <div class="d-flex align-items-baseline justify-content-around w-25 mt-2">
                 <p><img class="mx-1" src="/assets/images/view.svg" alt="">1.4k views</p>
                 <button class="border-0 mx-2 rounded-1"><img src="assets/images/share.svg" width="20px" height="20px"></button>
             </div>
@@ -79,8 +79,8 @@
         </div>
         <p class="mx-3">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
         <div class="d-flex m-3 justify-content-between">
-            <h6 class="width-60"><img class="rounded-circle me-2" src="/assets/images/profile2.jpeg" alt="" width="48px" height="48px">Sarah West</h6>
-            <div class="d-flex align-items-baseline justify-content-around width-40 mt-2">
+            <h6 class="w-75"><img class="rounded-circle me-2" src="/assets/images/profile2.jpeg" alt="" width="48px" height="48px">Sarah West</h6>
+            <div class="d-flex align-items-baseline justify-content-around w-25 mt-2">
                 <p><img class="mx-1" src="/assets/images/view.svg" alt="">1.4k views</p>
                 <button class="border-0 mx-2 rounded-1"><img src="assets/images/share.svg" width="20px" height="20px"></button>
             </div>
@@ -100,7 +100,7 @@
                   </div>
                 </div>
         </div>
-        <div class="d-flex width-60 justify-content-between mx-3">
+        <div class="d-flex width-60 justify-content-between mx-3 flex-column flex-md-row">
             <div>
                 <img src="/assets/images/calendar.svg" alt="">
                 <span class="fw-bold">Fri, 12 Oct, 2018</span>
@@ -125,7 +125,7 @@
             <p class="fw-bold fs-5 width-90">Software Developer</p>
             <button class="btn btn-light"><img src="/assets/images/dots.svg" alt=""></button>
         </div>
-        <div class="d-flex width-60 justify-content-between mx-3">
+        <div class="d-flex width-60 justify-content-between mx-3 flex-column flex-md-row">
             <div>
                 <img src="/assets/images/work.svg" alt="">
                 <span class="fw-bold">Innovaccer Analytics Private Ltd.</span>
@@ -145,13 +145,13 @@
         </div>
     </div>
     </div>
-    <div class="mx-5 mt-5 w-25">
-        <div class="d-flex justify-content-between align-items-center">
-            <div>
+    <div class="mx-5 mt-5 w-25 d-md-block d-none">
+        <div class="d-flex justify-content-between align-items-center position-relative">
+            <div class="d-flex">
                 <img src="/assets/images/location.svg" alt="">
                 <span><input class="btn-outline-light border-0" id="locationInput" type="text" placeholder="Enter your location" value="Noida, India"/></span>
             </div>
-            <button onclick="locationEdit()" class="btn btn-light">
+            <button onclick="locationEdit()" class="btn btn-light position-absolute end-0">
                 <img src="/assets/images/edit.svg" alt="">
             </button>
             
@@ -198,7 +198,7 @@
         </div>
     </div>
 </div>
-<div id="registerModal" class="user-modal d-block">
+<div id="registerModal" class="user-modal">
     <!-- Modal content -->
     <div class="user-modal-content rounded-4">
         <span onclick="closeBtn()" class="close"><img src="/assets/images/close.svg" alt=""></span>
