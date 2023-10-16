@@ -62,13 +62,13 @@ function joinGrp(){
   var grpBtn=document.getElementById('grpBtn')
   if(text.innerText=="Join Group"){
     text.innerText="Leave Group"
-    image.src="/assets/images/leave.svg"
+    image.src="./assets/images/leave.svg"
     grpBtn.classList.toggle('btn-primary')
     grpBtn.classList.toggle('btn-outline-secondary')
 }
 else{
     text.innerText="Join Group"
-    image.src="/assets/images/join.svg"
+    image.src="./assets/images/join.svg"
     grpBtn.classList.toggle('btn-outline-secondary')
     grpBtn.classList.toggle('btn-primary')
 }
